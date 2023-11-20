@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.cdnfonts.com/css/clash-display?styles=106289');
+
+
+.contato-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+
+.contato-page-titulo {
+    display: flex;
+    font-size: 40px;
+    max-height: 0px;
+    margin-top: 120px;
+    font-family: 'Clash Display', sans-serif;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+
+.page-contato-formulario {
+    display: flex;
+    align-content: center;
+    flex-flow: column wrap;
+    border-radius: 10px;
+    min-width: 580px;
+    max-width: 580px;
+    min-height: 580px;
+    max-height: 700px;
+    margin-top: 120px;
+    color: #000000;
+    background: rgba(255, 255, 255, 0.733);
+    border-bottom: 1px solid black;
+}
+
+.contato-page-img {
+    display: block;
+    position: relative;
+    margin-top: 80px;
+    height: 400px;
+    box-shadow: 0 8px 20px rgb(0 0 0 / 0.2);
+    border-radius: 5%;
+}
+
+.contato-page-escrito {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.733);
+    height: 310px;
+    width: 560px;
+    border-top: none;
+    margin-right: 660px;
+    margin-top: -250px;
+    border-bottom: 1px solid black;
+}
+.page-contato-formulario-titulo {
+    position: relative;
+    top: 100px;
+    font-size: 45px;
+    border: 1px;
+    border-style: solid;
+    padding: 10px;
+}
+.link {
+    text-align: center;
+    position: relative;
+    top: 180px;
+    font-size: 30px;
+    padding: 0;
+    border: 3px;
+    border-style:double;
+}
+.paragrafo {
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    text-indent: 10px;
+    font-weight: 600;
+}
+
+.contato-email {
+    display: flex;
+    font-family: 'Inter', sans-serif;
+}
+
+.contato-telefone {
+    display: flex;
+    font-family: 'Inter', sans-serif;
+}
+
+.contato-endereco {
+    display: flex;
+    font-family: 'Inter', sans-serif;
+}

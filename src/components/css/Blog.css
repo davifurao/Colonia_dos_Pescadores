@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.cdnfonts.com/css/clash-display?styles=106289');
+
+.blog-conteudo-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.blog-img-homempescando {
+    display: flex;
+    margin-top: 80px;
+    border-radius: 5%;
+    height: 400px;
+}
+
+.blog-texto-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Mukta', sans-serif;
+    border-bottom: 1px solid black;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.733);
+    border-radius: 10px;
+    width: 500px;
+    height: 400px;
+    text-indent: 10px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.blog-conteudo-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.blog-img-represetantetrabalhando {
+    display: flex;
+    margin-top: -100px;
+    border-radius: 5%;
+    height: 400px;
+}
+
+.blog-texto-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: 'Mukta', sans-serif;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.733);
+    border-radius: 10px;
+    width: 500px;
+    height: 760px;
+    text-indent: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    border-bottom: 1px solid black;
+}
