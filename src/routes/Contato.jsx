@@ -1,6 +1,7 @@
 import React from 'react'
 import '../components/css/Contato.css'
 import Contato from '../components/scripts/Contato'
+import { FaTelegram,FaWhatsapp } from 'react-icons/fa';
 
 
 ////////Numero do whatsapp com todos os digitos/////////////
@@ -18,15 +19,13 @@ function extrairNumeroLocal(numero) {
 function ContatoPage() {
     const numero_sem_digitos = extrairNumeroLocal(numero);
 
-    // Coordenadas do local para o Google Maps (Itapissuma - PE)
-    const coordenadas = "-7.776837258697386,-34.90958418116063";
+    
 
     return (
         <>
             <main>
                 <section className='contato-page'>
                     <img className="contato-page-img" src="../img/barcos.JPG" alt="" />
-                    <Contato />
                     <div className='contato-page-escrito'>
                         <p className='paragrafo'>Você pode enviar uma mensagem pra gente diretamente <br /> do site mas também pode escolher outros meios de contatos abaixo:</p>
                         <p className='contato-email'><br /><b>Email: </b><br /><a href='mailto:coloniadepescaz10itapissuma@gmail.com'>coloniadepescaz10itapissuma@gmail.com</a></p>
@@ -34,9 +33,25 @@ function ContatoPage() {
                         <p className='contato-endereco'><br /><b>Endereço: </b><br /> Itapissuma - PE, Rua Doutor José Gonsalves, 87, Centro. </p>
                         <p className='contato-whatsapp'>
                             <br />
-                            <b>Whatsapp: </b><br />
-                            <a href={`https://api.whatsapp.com/send?phone=${numero}`}>(81) {numero_sem_digitos}<br /></a>
-                        </p>
+                            <b>Telefone: </b><br />
+                        <a href={`tel:+${numero}`}>(81) {numero_sem_digitos}<br /></a>
+                            </p>
+
+                        <button
+                            className="whatsapp-button"
+                            onClick={() => window.open(`https://api.whatsapp.com/send?phone=${numero}`, '_blank')}
+                        >
+                            <FaWhatsapp className="whatsapp-icon" />
+                        Entre em contato pelo WhatsApp
+                        </button>
+
+                        <button
+                            className="telegram-button"
+                            onClick={() => window.open('https://t.me/seu_usuario_no_telegram', '_blank')}
+                            >
+                            <FaTelegram className="telegram-icon" />
+                                Entre em contato pelo Telegram
+                        </button>
                     
                     </div>
 
@@ -56,6 +71,9 @@ function ContatoPage() {
                                 referrerPolicy="no-referrer-when-downgrade"
                             ></iframe>
                         </div>
+
+                    
+               
                 </section>
             </main>
         </>

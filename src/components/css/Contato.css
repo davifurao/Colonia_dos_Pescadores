@@ -6,7 +6,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    width: 80%;
+    width: 100%;
 }
 
 
@@ -36,12 +36,13 @@
 
 .contato-page-img {
     display: flex;
-    position: relative;
-    margin-top: 50px;
-    height: 380px;
+    position: static;
+    margin-top: 100px;
+    height: 450px;
     box-shadow: 0 2px 20px rgb(0 0 0 / 0.2);
     border-radius: 1%;
-    margin-left: 0px;
+    margin-left: 655px;
+    margin-bottom: -170px;
 }
 
 .contato-page-escrito {
@@ -51,8 +52,8 @@
     flex-flow: column wrap;
     border-radius: 4px;
     background: rgba(255, 255, 255, 0.733);
-    height: 399px;
-    width: 580px;
+    height: 450px;
+    width: 680px;
     border-top: none;
     margin-right: 700px;
     margin-top: -280px;
@@ -115,4 +116,54 @@
 width: 20%;
 height: 20%;
 margin-top: -40px;
+}
+
+
+
+/* configurações dos botoes do telegram  */
+.telegram-button {
+    display: flex;
+    margin-top: 5px;
+    align-items: center;
+    justify-content: center;
+    background-color: #0088cc;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.telegram-button:hover {
+    background-color: #006699;
+}
+
+.telegram-icon {
+    margin-right: 8px;
+    font-size: 20px;
+}
+
+
+/*configurações do botão do wpp*/
+.whatsapp-button {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: #25d366;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.whatsapp-button:hover {
+    background-color: #128C7E;
+}
+
+.whatsapp-icon {
+    margin-right: 8px;
+    font-size: 20px;
 }
