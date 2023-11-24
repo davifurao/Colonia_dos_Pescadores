@@ -6,7 +6,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    width: 100%;
+    width: 80%;
 }
 
 
@@ -35,12 +35,13 @@
 }
 
 .contato-page-img {
-    display: block;
+    display: flex;
     position: relative;
-    margin-top: 80px;
-    height: 400px;
-    box-shadow: 0 8px 20px rgb(0 0 0 / 0.2);
-    border-radius: 5%;
+    margin-top: 50px;
+    height: 380px;
+    box-shadow: 0 2px 20px rgb(0 0 0 / 0.2);
+    border-radius: 1%;
+    margin-left: 0px;
 }
 
 .contato-page-escrito {
@@ -48,13 +49,13 @@
     align-content: center;
     justify-content: center;
     flex-flow: column wrap;
-    border-radius: 10px;
+    border-radius: 4px;
     background: rgba(255, 255, 255, 0.733);
-    height: 310px;
-    width: 560px;
+    height: 399px;
+    width: 580px;
     border-top: none;
-    margin-right: 660px;
-    margin-top: -250px;
+    margin-right: 700px;
+    margin-top: -280px;
     border-bottom: 1px solid black;
 }
 .page-contato-formulario-titulo {
@@ -77,21 +78,41 @@
 .paragrafo {
     display: flex;
     font-family: 'Inter', sans-serif;
-    text-indent: 10px;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .contato-email {
-    display: flex;
     font-family: 'Inter', sans-serif;
 }
 
 .contato-telefone {
-    display: flex;
     font-family: 'Inter', sans-serif;
 }
 
 .contato-endereco {
-    display: flex;
     font-family: 'Inter', sans-serif;
+}
+
+.contato-whatsapp{
+    font-family: 'Inter', sans-serif;
+}
+
+.localizacao {
+    font-family: 'Inter', sans-serif;
+}
+
+.contato-localizacao {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 16px; /* Adapte conforme necessário para o espaçamento desejado */
+  background-color: white; /* Adapte conforme necessário para a cor de fundo desejada */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adapte conforme necessário para a sombra desejada */
+  z-index: 999; /* Garante que a localização esteja acima do conteúdo */
+}
+
+.page-contato-formulario-img{
+width: 20%;
+height: 20%;
+margin-top: -40px;
 }
