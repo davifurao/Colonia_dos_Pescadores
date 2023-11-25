@@ -47,7 +47,7 @@ function ContatoPage() {
 
                         <button
                             className="telegram-button"
-                            onClick={() => window.open('https://t.me/seu_usuario_no_telegram', '_blank')}
+                            onClick={() => window.open('https://t.me/COL_PESCADORES_ITA_BOT', '_blank')}
                             >
                             <FaTelegram className="telegram-icon" />
                                 Entre em contato pelo Telegram
