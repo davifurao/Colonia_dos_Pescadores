@@ -35,12 +35,14 @@
 }
 
 .contato-page-img {
-    display: block;
-    position: relative;
-    margin-top: 80px;
-    height: 400px;
-    box-shadow: 0 8px 20px rgb(0 0 0 / 0.2);
-    border-radius: 5%;
+    display: flex;
+    position: static;
+    margin-top: 100px;
+    height: 450px;
+    box-shadow: 0 2px 20px rgb(0 0 0 / 0.2);
+    border-radius: 1%;
+    margin-left: 655px;
+    margin-bottom: -170px;
 }
 
 .contato-page-escrito {
@@ -48,13 +50,13 @@
     align-content: center;
     justify-content: center;
     flex-flow: column wrap;
-    border-radius: 10px;
+    border-radius: 4px;
     background: rgba(255, 255, 255, 0.733);
-    height: 310px;
-    width: 560px;
+    height: 450px;
+    width: 680px;
     border-top: none;
-    margin-right: 660px;
-    margin-top: -250px;
+    margin-right: 700px;
+    margin-top: -280px;
     border-bottom: 1px solid black;
 }
 .page-contato-formulario-titulo {
@@ -77,21 +79,91 @@
 .paragrafo {
     display: flex;
     font-family: 'Inter', sans-serif;
-    text-indent: 10px;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .contato-email {
-    display: flex;
     font-family: 'Inter', sans-serif;
 }
 
 .contato-telefone {
-    display: flex;
     font-family: 'Inter', sans-serif;
 }
 
 .contato-endereco {
-    display: flex;
     font-family: 'Inter', sans-serif;
+}
+
+.contato-whatsapp{
+    font-family: 'Inter', sans-serif;
+}
+
+.localizacao {
+    font-family: 'Inter', sans-serif;
+}
+
+.contato-localizacao {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 16px; /* Adapte conforme necessário para o espaçamento desejado */
+  background-color: white; /* Adapte conforme necessário para a cor de fundo desejada */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adapte conforme necessário para a sombra desejada */
+  z-index: 999; /* Garante que a localização esteja acima do conteúdo */
+}
+
+.page-contato-formulario-img{
+width: 20%;
+height: 20%;
+margin-top: -40px;
+}
+
+
+
+/* configurações dos botoes do telegram  */
+.telegram-button {
+    display: flex;
+    margin-top: 5px;
+    align-items: center;
+    justify-content: center;
+    background-color: #0088cc;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.telegram-button:hover {
+    background-color: #006699;
+}
+
+.telegram-icon {
+    margin-right: 8px;
+    font-size: 20px;
+}
+
+
+/*configurações do botão do wpp*/
+.whatsapp-button {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: #25d366;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.whatsapp-button:hover {
+    background-color: #128C7E;
+}
+
+.whatsapp-icon {
+    margin-right: 8px;
+    font-size: 20px;
 }

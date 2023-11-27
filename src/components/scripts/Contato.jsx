@@ -1,19 +1,7 @@
 import React from 'react';
-
+import { FaTelegram } from 'react-icons/fa'; // Importa o ícone do Telegram
 
 function Formulario() {
-    return (
-
-        <section className="formulario">
-                <div className="page-contato-formulario">
-                    <h1 className="page-contato-formulario-titulo">
-                        Fale conosco!
-                    </h1>
-                    <a href='https://www.google.com' className='link'>clique aqui</a>
-                </div>
-        </section>
-
-    );
 }
 
 export default Formulario;
