@@ -5,7 +5,7 @@ import { FaTelegram,FaWhatsapp } from 'react-icons/fa';
 
 
 ////////Numero do whatsapp com todos os digitos/////////////
-const numero = 558135481998;
+const numero = 5581354819;
 ///////////////////////////////////////////////////////////
 
 
@@ -28,15 +28,7 @@ function ContatoPage() {
                     <img className="contato-page-img" src="../img/barcos.JPG" alt="" />
                     <div className='contato-page-escrito'>
                         <p className='paragrafo'>Você pode enviar uma mensagem pra gente diretamente <br /> do site mas também pode escolher outros meios de contatos abaixo:</p>
-                        <p className='contato-email'><br /><b>Email: </b><br /><a href='mailto:coloniadepescaz10itapissuma@gmail.com'>coloniadepescaz10itapissuma@gmail.com</a></p>
-                        <p className='contato-telefone'><br /><b>Telefone para contato:</b> <br /> +55 (81) 3548-1998</p>
-                        <p className='contato-endereco'><br /><b>Endereço: </b><br /> Itapissuma - PE, Rua Doutor José Gonsalves, 87, Centro. </p>
-                        <p className='contato-whatsapp'>
-                            <br />
-                            <b>Telefone: </b><br />
-                        <a href={`tel:+${numero}`}>(81) {numero_sem_digitos}<br /></a>
-                            </p>
-
+                       
                         <button
                             className="whatsapp-button"
                             onClick={() => window.open(`https://api.whatsapp.com/send?phone=${numero}`, '_blank')}

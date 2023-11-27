@@ -9,7 +9,7 @@ function Principal() {
           400 pescadores e pescadoras artesanais associados, que são
           diretamente <br/> beneficiados pelo Projeto, sendo em sua maioria
           mulheres.</p>
-        <a href="/"><button className="saiba">Saiba Mais.</button></a>
+     
       </div>
       <img className="conteudo-principal-img" src="../img/canal(2).JPG" alt="" />
     </section>

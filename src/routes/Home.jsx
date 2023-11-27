@@ -1,4 +1,4 @@
-import ContatoHome from '../components/scripts/ContatoHome';
+
 import Principal from '../components/scripts/Principal';
 import Secundario from '../components/scripts/Secundario';
 import Linha from '../components/scripts/Linha';
@@ -15,7 +15,7 @@ function Home() {
 
       <Linha />
 
-      <ContatoHome />
+     
     </>
   )
 }
