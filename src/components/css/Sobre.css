@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.cdnfonts.com/css/clash-display?styles=106289');
+
+.sobre-conteudo-principal {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobre-page-img {
+    margin-top: 40px;
+    height: 400px;
+    box-shadow: 0 8px 20px rgb(0 0 0 / 0.2);
+    border-radius: 5%;
+}
+
+.sobre-page-texto-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    margin-left: 30px;
+    padding: 20px;
+    width: 500px;
+    height: 500px;
+    background: rgba(255, 255, 255, 0.733);
+    font-size: 25px;
+    border-radius: 25px;
+    border-bottom: 1px solid;
+}

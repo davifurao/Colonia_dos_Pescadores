@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.cdnfonts.com/css/clash-display?styles=106289');
+
+
+.contato-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+
+.contato-page-titulo {
+    display: flex;
+    font-size: 40px;
+    max-height: 0px;
+    margin-top: 120px;
+    font-family: 'Clash Display', sans-serif;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+
+.page-contato-formulario {
+    display: flex;
+    align-content: center;
+    flex-flow: column wrap;
+    border-radius: 10px;
+    min-width: 580px;
+    max-width: 580px;
+    min-height: 580px;
+    max-height: 700px;
+    margin-top: 120px;
+    color: #000000;
+    background: rgba(255, 255, 255, 0.733);
+    border-bottom: 1px solid black;
+}
+
+.contato-page-img {
+    display: flex;
+    position: static;
+    margin-top: 100px;
+    height: 450px;
+    box-shadow: 0 2px 20px rgb(0 0 0 / 0.2);
+    border-radius: 1%;
+    margin-left: 655px;
+    margin-bottom: -170px;
+}
+
+.contato-page-escrito {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.733);
+    height: 450px;
+    width: 680px;
+    border-top: none;
+    margin-right: 700px;
+    margin-top: -280px;
+    border-bottom: 1px solid black;
+}
+.page-contato-formulario-titulo {
+    position: relative;
+    top: 100px;
+    font-size: 45px;
+    border: 1px;
+    border-style: solid;
+    padding: 10px;
+}
+.link {
+    text-align: center;
+    position: relative;
+    top: 180px;
+    font-size: 30px;
+    padding: 0;
+    border: 3px;
+    border-style:double;
+}
+.paragrafo {
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+.contato-email {
+    font-family: 'Inter', sans-serif;
+}
+
+.contato-telefone {
+    font-family: 'Inter', sans-serif;
+}
+
+.contato-endereco {
+    font-family: 'Inter', sans-serif;
+}
+
+.contato-whatsapp{
+    font-family: 'Inter', sans-serif;
+}
+
+.localizacao {
+    font-family: 'Inter', sans-serif;
+}
+
+.contato-localizacao {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 16px; /* Adapte conforme necessário para o espaçamento desejado */
+  background-color: white; /* Adapte conforme necessário para a cor de fundo desejada */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adapte conforme necessário para a sombra desejada */
+  z-index: 999; /* Garante que a localização esteja acima do conteúdo */
+}
+
+.page-contato-formulario-img{
+width: 20%;
+height: 20%;
+margin-top: -40px;
+}
+
+
+
+/* configurações dos botoes do telegram  */
+.telegram-button {
+    display: flex;
+    margin-top: 5px;
+    align-items: center;
+    justify-content: center;
+    background-color: #0088cc;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.telegram-button:hover {
+    background-color: #006699;
+}
+
+.telegram-icon {
+    margin-right: 8px;
+    font-size: 20px;
+}
+
+
+/*configurações do botão do wpp*/
+.whatsapp-button {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: #25d366;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.whatsapp-button:hover {
+    background-color: #128C7E;
+}
+
+.whatsapp-icon {
+    margin-right: 8px;
+    font-size: 20px;
+}

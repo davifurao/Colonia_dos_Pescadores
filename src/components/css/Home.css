@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.cdnfonts.com/css/clash-display?styles=106289');
+
+
+/* Principal */
+
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 75px;
+}
+
+.conteudo-principal-img {
+    transition: 0.5s linear;
+    margin-top: 35px;
+    height: 400px;
+    box-shadow: 0 8px 20px rgb(0 0 0 / 0.2);
+    border-radius: 5%;
+}
+
+.conteudo-principal-img:hover {
+    transition: 0.5s linear;
+    scale: 1.05;
+    opacity: 1;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Clash Display', sans-serif;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.conteudo-principal-escrito-paragrafo {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+
+.saiba {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Clash Display', sans-serif;
+    cursor: pointer;
+    transition: 0.2s linear;
+    background: rgb(43, 89, 255);
+    font-weight: 400;
+    gap: 10px;
+    width: 140px;
+    height: 41px;
+    border-radius: 8px;
+    flex-grow: 0;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+.saiba:hover {
+    background-color: rgba(0, 22, 104, 0.829);
+}
+
+
+/* Conteúdos */
+.conteudo-secundario {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    column-gap: 100px;
+    margin-bottom: 0px;
+    margin-top: 50px;
+    height: 300px;
+}
+
+.conteudo-secundario-titulo {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+    font-family: 'Clash Display', sans-serif;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.conteudo-secundario-documentario {
+    display: flex;
+    background: #e7e7e7;
+    font-family: 'Inter', sans-serif;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: 0.5s linear;
+    box-shadow: 0 8px 20px rgb(0 0 0 / 0.2);
+    border-radius: 8px;
+    width: 327px;
+    height: 105px;
+    row-gap: 10px;
+}
+
+.conteudo-secundario-documentario:hover {
+    background: #FFFFFF;
+    transition: 0.5s linear;
+    scale: 1.05;
+}
+
+.documentario {
+    text-decoration: underline;
+    color: black;
+}
+
+.conteudo-secundario-respo {
+    display: flex;
+    background: #e7e7e7;
+    flex-flow: column wrap;
+    font-family: 'Inter', sans-serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: 0.5s linear;
+    box-shadow: 0 8px 20px rgb(0 0 0 / 0.2);
+    box-shadow: 0 8px 20px rgb(0 0 0 / 0.2);
+    border-radius: 8px;
+    width: 357px;
+    height: 135px;
+    row-gap: 10px;
+}
+
+.conteudo-secundario-respo:hover {
+    background: #FFFFFF;
+    transition: 0.5s linear;
+    scale: 1.05;
+}
+
+.responsaveis {
+    text-decoration: underline;
+    color: black;
+}
+
+.conteudo-secundario-blog {
+    display: flex;
+    background: #e7e7e7;
+    flex-flow: column wrap;
+    font-family: 'Inter', sans-serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: 0.5s linear;
+    box-shadow: 0 8px 20px rgb(0 0 0 / 0.2);
+    border-radius: 8px;
+    width: 327px;
+    height: 105px;
+    row-gap: 10px;
+}
+
+.conteudo-secundario-blog:hover {
+    background: #FFFFFF;
+    transition: 0.5s linear;
+    scale: 1.05;
+}
+
+.blog {
+    text-decoration: underline;
+    color: black;
+}
+
+.blog-home-texto {
+    display: flex;
+    text-decoration: none;
+    margin-top: 3px;
+}
+
+/* Formulário */
+
+
+.mensagem {
+    font-family: 'Mukta', sans-serif;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    margin: 5px;
+    border-left: none;
+    border-top: 5px;
+    max-height: 100px;
+    background-color: transparent;
+    transition: 0.20s;
+}
+
+.mensagem:focus {
+    border-right: 20px solid rgb(43, 89, 255) !important;
+    border-top: none;
+    border-left: none;
+    outline: 2px solid;
+}
+
+::placeholder {
+    padding-left: 5px;
+}
+
+.mensagem:invalid {
+    border-right: 10px solid rgb(255, 6, 6);
+    border-top: none;
+    outline: 2px solid;
+    width: 380px;
+}
+
+.mensagem:valid {
+    border-right: 10px solid rgb(169, 255, 186, 1);
+    border-top: none;
+    outline: 2px solid;
+}
